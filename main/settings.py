@@ -40,6 +40,12 @@ INSTALLED_APPS = [
 
     # TPA
     'rest_framework',
+
+    # My app
+    'account.apps.AccountConfig',
+    'notebook.apps.NotebookConfig',
+
+
 ]
 
 MIDDLEWARE = [
